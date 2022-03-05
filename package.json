@@ -1,6 +1,6 @@
 {
   "name": "aoe-units",
-  "homepage": "https://onurbuldukoglu.github.io/aoe-units/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
