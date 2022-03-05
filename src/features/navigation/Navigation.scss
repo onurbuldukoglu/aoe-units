@@ -1,0 +1,13 @@
+@import '../../index.scss';
+
+.nav-div {
+  display: flex;
+  justify-content: end;
+  a {
+    @extend %link;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: $border;
+    font-weight: 700;
+  }
+}

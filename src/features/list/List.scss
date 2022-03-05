@@ -1,0 +1,20 @@
+@import '../../index.scss';
+
+.list-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  table {
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    td, th {
+      border-bottom: $border;
+      padding: 0.2rem;
+      word-spacing: 0.1rem;
+    }
+    a {
+      @extend %link;
+    }
+  }
+}

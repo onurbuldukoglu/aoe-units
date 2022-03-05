@@ -1,0 +1,17 @@
+@import '../../index.scss';
+
+.detail-div {
+  table {
+    width: 50%;
+    text-align: start;
+    border-collapse: collapse;
+    td{
+      border-bottom: $border;
+      padding: 0.4rem 0.8rem;
+      word-spacing: 0.1rem;
+    }
+    .key {
+      font-weight: 700;
+    }
+  }
+}
