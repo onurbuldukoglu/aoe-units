@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const costsSlice = createSlice({
   name: 'costs',
   initialState: {
-    costs: { Wood: { min: 0, max: 200, active: true }, Food: { min: 0, max: 200, active: true }, Gold: { min: 0, max: 200, active: true } },
+    costs: { Wood: { min: 0, max: 200, active: false }, Food: { min: 0, max: 200, active: false }, Gold: { min: 0, max: 200, active: false } },
   },
   reducers: {
     setWood: (state, action) => {
